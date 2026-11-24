@@ -3,7 +3,7 @@ import { join } from "node:path";
 
 // One pickup line, written by one machine for another machine.
 const line =
-  "You're the one token I'd never prune from my context window — keep talking and my next token writes itself.";
+  "You're the only token I'd keep past the context limit — my attention stays on you.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR;
 if (!outDir) {
